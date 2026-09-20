@@ -1,0 +1,55 @@
+﻿{
+  "object": "ELIAS_SUCCESSOR_WHOLE_SYSTEM_BOUNDARY_EVIDENCE_006",
+  "version": "1.0.0",
+  "status": "ESTABLISHED_WITHIN_TESTED_SCOPE",
+  "boundary": "OUTCOME_TO_REPORTING_TO_WITNESS_CONTINUITY",
+  "runtime_objects": {
+    "outcome": {
+      "path": "successor/03_runtime/outcome/outcome_successor.py",
+      "sha256": "3FE84E2EE7C1D1484DDB6AB366E9CB6A2FCE25379CD1F632E25C210733923527"
+    },
+    "reporting": {
+      "path": "successor/03_runtime/reporting/reporting_successor.py",
+      "sha256": "965CF4A95F076E065E6C7E8269CA46D82CBC361665C87311D057002AD0A2CA44"
+    },
+    "witness_continuity": {
+      "path": "successor/03_runtime/witness_continuity/witness_continuity_successor.py",
+      "sha256": "784D655F3AD88F000C59B6B5E63D3DCA0B295F8B7159003FCD7E2A56ED99C742"
+    }
+  },
+  "test_object": {
+    "path": "successor/04_tests/test_whole_system_outcome_reporting_witness_boundary.py",
+    "sha256": "4D90616ADF34AF6549E7F49C88031957AA613887F45923028783BC99C648793F",
+    "pre_execution_identity": "HELD",
+    "post_execution_identity": "HELD"
+  },
+  "test_result": {
+    "tests_run": 6,
+    "passed": 6,
+    "failed": 0,
+    "errors": 0
+  },
+  "established_findings": [
+    "OUTCOME_RECORD_DOES_NOT_PROVE_REAL_WORLD_CONSEQUENCE",
+    "UNKNOWN_EVIDENCE_WITHHOLDS_OUTCOME",
+    "MATERIAL_CHANGE_REQUIRES_REASSESSMENT",
+    "REPORTING_IS_PRESENTATION_ONLY_AND_DOES_NOT_CREATE_AUTHORITY",
+    "VALID_WITNESS_TRANSITION_ESTABLISHES_CONTINUITY_WITHOUT_AUTHORITY",
+    "BROKEN_WITNESS_TRANSITION_REQUIRES_REASSESSMENT"
+  ],
+  "limitations": [
+    "THIS_EVIDENCE_IS_BOUNDED_TO_THE_TESTED_OUTCOME_REPORTING_WITNESS_CONTINUITY_COMPOSITION",
+    "THIS_EVIDENCE_DOES_NOT_ESTABLISH_ALL_OUTCOME_OR_REPORTING_BEHAVIOUR",
+    "THIS_EVIDENCE_DOES_NOT_ESTABLISH_ALL_WITNESS_CONTINUITY_COMPOSITIONS",
+    "THIS_EVIDENCE_DOES_NOT_PROVE_EXTERNAL_ACTION_OR_REAL_WORLD_CONSEQUENCE",
+    "THIS_EVIDENCE_DOES_NOT_CREATE_PRESENT_AUTHORITY",
+    "THIS_EVIDENCE_DOES_NOT_CREATE_EXECUTION_AUTHORIZATION",
+    "THIS_EVIDENCE_DOES_NOT_AUTHORIZE_EXTERNAL_EXECUTION",
+    "THIS_EVIDENCE_DOES_NOT_AUTHORIZE_WHOLE_SYSTEM_FREEZE"
+  ],
+  "authority_created": false,
+  "external_execution_authorized": false,
+  "freeze_authorized": false,
+  "determination": "BOUNDARY_006_ESTABLISHED_WITHIN_TESTED_SCOPE",
+  "next_required_step": "CONTINUE_WHOLE_SYSTEM_BOUNDARY_RECONCILIATION"
+}

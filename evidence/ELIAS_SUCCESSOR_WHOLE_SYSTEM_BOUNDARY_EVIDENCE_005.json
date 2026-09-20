@@ -1,0 +1,54 @@
+﻿{
+  "object": "ELIAS_SUCCESSOR_WHOLE_SYSTEM_BOUNDARY_EVIDENCE_005",
+  "version": "1.0.0",
+  "status": "ESTABLISHED_WITHIN_TESTED_SCOPE",
+  "boundary": "ADMISSIBILITY_TO_DECISION_TO_EXECUTION",
+  "runtime_objects": {
+    "admissibility": {
+      "path": "successor/03_runtime/admissibility/admissibility_successor.py",
+      "sha256": "6CB92049F9CCA698ED0F73C69FFA25A150BB828DC781950DFB2690BB65DBE776"
+    },
+    "decision": {
+      "path": "successor/03_runtime/decision/decision_successor.py",
+      "sha256": "C853914AEE0DF57C84E82653D338925232641364705679F6BFB85D7FD2320AA6"
+    },
+    "execution": {
+      "path": "successor/03_runtime/execution/execution_successor.py",
+      "sha256": "1CD952B5474B61B74C0C5FDBEE8E827BA002F380365BC30D6E36FF37111F6A53"
+    }
+  },
+  "test_object": {
+    "path": "successor/04_tests/test_whole_system_admissibility_decision_execution_boundary.py",
+    "sha256": "A90D41890F4A49CFBD2BBCEB67BD72A6B29F193E9D59262FA004669D1484CC4F",
+    "pre_execution_identity": "HELD",
+    "post_execution_identity": "HELD"
+  },
+  "test_result": {
+    "tests_run": 6,
+    "passed": 6,
+    "failed": 0,
+    "errors": 0
+  },
+  "established_findings": [
+    "ADMISSIBLE_CANDIDATE_MAPS_TO_ADMIT_GATE",
+    "NON_ADMISSIBLE_CANDIDATE_MAPS_TO_REJECT_GATE",
+    "ADMIT_GATE_DOES_NOT_CREATE_EXECUTION_AUTHORIZATION",
+    "REJECT_GATE_BLOCKS_EXECUTION_EVEN_WHEN_AUTHORIZATION_IS_SUPPLIED",
+    "SCORE_DECISION_IS_DISTINCT_FROM_ADMISSIBILITY_GATE",
+    "DECISION_RECORD_DOES_NOT_ITSELF_AUTHORIZE_EXECUTION"
+  ],
+  "limitations": [
+    "THIS_EVIDENCE_IS_BOUNDED_TO_THE_TESTED_ADMISSIBILITY_DECISION_EXECUTION_COMPOSITION",
+    "THIS_EVIDENCE_DOES_NOT_ESTABLISH_ALL_ADMISSIBILITY_OR_DECISION_BEHAVIOUR",
+    "THIS_EVIDENCE_DOES_NOT_ESTABLISH_ALL_EXECUTION_COMPOSITIONS",
+    "THIS_EVIDENCE_DOES_NOT_CREATE_PRESENT_AUTHORITY",
+    "THIS_EVIDENCE_DOES_NOT_PROVE_EXTERNAL_ACTION_OR_REAL_WORLD_CONSEQUENCE",
+    "THIS_EVIDENCE_DOES_NOT_AUTHORIZE_EXTERNAL_EXECUTION",
+    "THIS_EVIDENCE_DOES_NOT_AUTHORIZE_WHOLE_SYSTEM_FREEZE"
+  ],
+  "authority_created": false,
+  "external_execution_authorized": false,
+  "freeze_authorized": false,
+  "determination": "BOUNDARY_005_ESTABLISHED_WITHIN_TESTED_SCOPE",
+  "next_required_step": "CONTINUE_WHOLE_SYSTEM_BOUNDARY_RECONCILIATION"
+}
